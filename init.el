@@ -7,7 +7,7 @@
 
 (require 'mule-rc)
 (require 'decor-rc)
-(require 'cedet-rc)
+;; (require 'cedet-rc)
 (require 'ido-rc)
 (require 'anything-rc)
 (require 'yasnippet-rc)
