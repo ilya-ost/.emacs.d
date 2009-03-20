@@ -1,0 +1,27 @@
+;;; anything-rc.el --- 
+
+;; Copyright (C) 2009  ilya
+
+;; Author: ilya <ilya@debian>
+
+;;; Code:
+
+(require 'anything-config)
+
+(require 'anything-dabbrev-expand)
+(global-set-key "\M-/" 'anything-dabbrev-expand)
+(define-key anything-dabbrev-map "\M-/" 'anything-dabbrev-find-all-buffers)
+
+(setq anything-sources
+      (list anything-c-source-buffers
+	    anything-c-source-bookmarks
+	    anything-c-source-emacs-commands
+	    ))
+
+(global-set-key "\C-x\C-m"  'anything)
+(global-set-key "\C-xm"  'anything)
+
+(setq anything-samewindow t)
+
+(provide 'anything-rc)
+;;; anything-rc.el ends here

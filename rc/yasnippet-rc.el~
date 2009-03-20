@@ -1,0 +1,12 @@
+;;; yasnippet-rc.el --- 
+
+;; Copyright (C) 2009  ilya
+
+;; Author: ilya <ilya@debian>
+
+;;; Code:
+
+
+
+(provide 'yasnippet-rc)
+;;; yasnippet-rc.el ends here
